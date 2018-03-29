@@ -1,0 +1,6 @@
+Mon README
+-----------------
+
+1/ Création d'un repository Github de base 
+2/ Création d'unn  fichier pour qu'il soit clonage
+3/ Inviter un githubien à accéder à ce repo de base pour éventuellement le partager.
