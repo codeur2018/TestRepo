@@ -2,3 +2,4 @@
 ----------
 - Lire mon readme.md
 - utiliser 'cheatsheet' pour compléter le readme.md
+- faites des modifications ou évolutions de votre développement sans oublier de commiter et pusher vos modifications
