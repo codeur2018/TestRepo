@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 
 // services
-
+import { ProfileService } from './profile.service';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,7 @@ import { ProfileComponent } from './profile/profile.component';
     BrowserModule,
     HttpModule
   ],
-  providers: [],
+  providers: [ProfileService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
