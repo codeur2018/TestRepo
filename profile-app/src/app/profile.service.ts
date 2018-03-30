@@ -6,13 +6,18 @@ import 'rxjs/add/operator/map';
 export class ProfileService {
 
   apiURL = 'https://jsonplaceholder.typicode.com/users';
+  apiURL2 = 'https://jsonplaceholder.typicode.com/posts';
 
   constructor(
     private http: Http
   ) { }
 
   getUsers() {
-    return this.http.get(this.apiURL).map((res: Response) => {  console.log(res.json()); res.json(); });
+    return this.http.get(this.apiURL).map((res =>  res.json());
+  }
+
+  getPosts() {
+    return this.http.get(this.apiURL2).map((res => res.json());
   }
 
 }

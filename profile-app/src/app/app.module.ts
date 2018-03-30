@@ -6,15 +6,17 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ProfileItemComponent } from './profile/profile-item';
-
+import { UserComponent } from './user/user.component';
 // services
 import { ProfileService } from './profile.service';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     ProfileComponent,
-    ProfileItemComponent
+    ProfileItemComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
