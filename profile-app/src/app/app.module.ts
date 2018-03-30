@@ -8,8 +8,6 @@ import { ProfileComponent } from './profile/profile.component';
 import { ProfileItemComponent } from './profile/profile-item';
 import { UserComponent } from './user/user.component';
 // services
-import { ProfileService } from './profile.service';
-
 
 @NgModule({
   declarations: [
@@ -22,7 +20,7 @@ import { ProfileService } from './profile.service';
     BrowserModule,
     HttpModule
   ],
-  providers: [ProfileService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
