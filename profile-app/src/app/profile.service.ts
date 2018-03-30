@@ -5,14 +5,14 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class ProfileService {
 
-  apiURL = './datas/data.json';
+  apiURL = 'https://jsonplaceholder.typicode.com/users';
 
   constructor(
     private http: Http
   ) { }
 
   getUsers() {
-    return this.http.get(this.apiURL).map((res: Response) => {res.json(); });
+    return this.http.get(this.apiURL).map((res: Response) => {  console.log(res.json()); res.json(); });
   }
 
 }

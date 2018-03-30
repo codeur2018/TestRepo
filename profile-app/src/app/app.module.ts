@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 // components
 import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
+import { ProfileItemComponent } from './profile/profile-item';
 
 // services
 import { ProfileService } from './profile.service';
@@ -12,7 +13,8 @@ import { ProfileService } from './profile.service';
 @NgModule({
   declarations: [
     AppComponent,
-    ProfileComponent
+    ProfileComponent,
+    ProfileItemComponent
   ],
   imports: [
     BrowserModule,
